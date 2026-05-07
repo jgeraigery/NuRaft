@@ -70,7 +70,7 @@ class NuRaftConan(ConanFile):
 
     def requirements(self):
         if self.options.boost_asio:
-            self.requires("boost/[>=1.8.0]")
+            self.requires("boost/[>=1.91.0]")
         else:
             self.requires("asio/[>=1.22.0]")
 
