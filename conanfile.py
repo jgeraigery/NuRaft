@@ -72,7 +72,7 @@ class NuRaftConan(ConanFile):
         if self.options.boost_asio:
             self.requires("boost/[>=1.8.0]")
         else:
-            self.requires("asio/[>=1.22.0]")
+            self.requires("asio/[>=1.38.2]")
 
         self.requires("openssl/[>=1 <4]")
 
